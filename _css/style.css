@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* FORMATAÇÃO GERAL DO SITE */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+/* CONTAINER PRINCIPAL */
+main {
+    position: relative;
+    margin:0 auto;
+    top:0;
+}
+@media screen and (min-width: 376px) and (max-width: 900px) {
+    mobile{
+        max-width: 900px;
+    }
+}
+.main-clarorecarga {
+    position: relative;
+    width: 375px;
+    height: 396px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 49.87%), 
+    url("../assets/images/background.png") no-repeat;
+}
+header {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+.container {
+    position: absolute;
+    padding: 0 10px;
+    width: 100%;
+    height: 100%;
+}
+.container #number-topright, #textcredits-topbottom {
+    color: #fff;
+}
+.container #number-topright {
+    position: absolute;
+    top: 25px;
+    left: 240px;
+
+    font-size: 0.9em;
+}
+.container #textcredits-topbottom {
+    position: absolute;
+    top: 100px;
+
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.container #textcredits-topbottom span {
+    display: block;
+}
+.container #arrow-slide {
+    position: absolute;
+    width: 25px;
+    height: 1.5em;
+    top: 170px;
+    left: 85%;
+}
+.options-buycredits {
+    position: absolute;
+    top: 190px;
+}
+.options-buycredits #first-price, #second-price, #third-price {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.buy-orhire {
+    position: absolute;
+    top: 270px;
+}
+.buy-orhire #button-buy, #hire-sos {
+    padding: 12px;
+
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: none;
+
+    color: #434343;
+    font-weight: bold;
+}
+.buy-orhire #button-buy {
+    background-color: #FFCF0D;
+    margin-left: 15px;
+}
+.buy-orhire #hire-sos {
+    background-color: #FFF;
+    margin-left: 25px;
+}
+#hr1 {
+    position: absolute;
+    width: 205px;
+    height: 2px;
+    left: 0px;
+    top: 330px;    
+
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+#hr2 {
+    position: absolute;
+    width: 187px;
+    height: 2px;
+    left: 50%;
+    top: 330px;    
+
+    border-color: rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+p#recharge, #control-plans {
+    position: absolute;
+    top: 345px;
+    padding-left: 50px;
+
+    color: #ffffff;
+}
+p#recharge {
+    font-weight: bold;
+}
+p#control-plans {
+    padding-left: 50%;
+}
+
+/* SEGUNDA SEÇÃO */
+section {
+    position: relative;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.section-extraservices {
+    position: relative;
+    width: 375px;
+    height: 396px;
+    margin: 0 auto;
+}
+#test-free {
+    position: absolute;
+    color: #434343;
+    top: 10px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+h2 {
+    position: absolute; 
+    top: 50px;
+
+    color:#434343;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+picture {
+    position: absolute;
+    top: 80px;
+}
+#slide1 {
+    position: absolute;
+    padding-left: 10px;
+}
+#slide2 {
+    position: absolute;
+    padding-left: 200px;
+    
+}
+#title-slide1 {
+    position: absolute;
+    top: 110px;
+    width: 100px;
+    left: 20px;
+
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+}
+#title-slide2 {
+    position: absolute;
+    top: 110px;
+    width: 100px;
+    left: 210px;
+
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+}
