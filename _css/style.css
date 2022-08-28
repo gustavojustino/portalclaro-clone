@@ -150,6 +150,7 @@ section {
     position: absolute;
     color: #434343;
     top: 10px;
+    left: 10px;
 
     font-weight: 500;
     font-size: 14px;
@@ -158,6 +159,7 @@ section {
 h2 {
     position: absolute; 
     top: 50px;
+    left: 10px;
 
     color:#434343;
     font-weight: 500;
@@ -187,6 +189,26 @@ picture {
     font-size: 16px;
     line-height: 22px;
 }
+#title-claromusic {
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    width: 110px;
+
+    color:#434343;
+    font-weight: bold;
+}
+#description-claromusic {
+    position: absolute;
+    top: 175px;
+    left: 15px;
+    width: 110px;
+
+    color: #000000;
+    font-weight: 300px;
+    font-size: 13px;
+    line-height: 15px;
+}
 #title-slide2 {
     position: absolute;
     top: 110px;
@@ -196,4 +218,25 @@ picture {
     color: #ffffff;
     font-size: 16px;
     line-height: 22px;
+}
+#title-clarodesc {
+    position: absolute;
+    top: 150px;
+    margin-left: 200px;
+    width: 130px;
+
+    color:#434343;
+    font-weight: bold;
+
+}
+#description-clarodesc {
+    position: absolute;
+    top: 175px;
+    margin-left: 200px;
+    width: 130px;
+    
+    color: #000000;
+    font-weight: 300px;
+    font-size: 13px;
+    line-height: 15px;
 }
