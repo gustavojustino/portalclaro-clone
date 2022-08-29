@@ -13,11 +13,6 @@ main {
     margin:0 auto;
     top:0;
 }
-@media screen and (min-width: 376px) and (max-width: 900px) {
-    mobile{
-        max-width: 900px;
-    }
-}
 .main-clarorecarga {
     position: relative;
     width: 375px;
@@ -29,7 +24,7 @@ main {
 header {
     position: absolute;
     left: 25px;
-    top: 25px;
+    top: 10px;
 }
 .container {
     position: absolute;
@@ -38,7 +33,7 @@ header {
     height: 100%;
 }
 .container #number-topright, #textcredits-topbottom {
-    color: #fff;
+    color: #FFFFFF;
 }
 .container #number-topright {
     position: absolute;
@@ -73,7 +68,7 @@ header {
     padding: 10px;
     margin: 10px;
 
-    border: 2px solid #fff;
+    border: 2px solid #FFFFFF;
     border-radius: 4px;
     color: white;
     cursor: pointer;
@@ -97,7 +92,7 @@ header {
     margin-left: 15px;
 }
 .buy-orhire #hire-sos {
-    background-color: #FFF;
+    background-color: #FFFFFF;
     margin-left: 25px;
 }
 #hr1 {
@@ -148,10 +143,10 @@ section {
 }
 #test-free {
     position: absolute;
-    color: #434343;
     top: 10px;
     left: 10px;
 
+    color: #434343;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -177,7 +172,6 @@ picture {
 #slide2 {
     position: absolute;
     padding-left: 200px;
-    
 }
 #title-slide1 {
     position: absolute;
@@ -185,7 +179,7 @@ picture {
     width: 100px;
     left: 20px;
 
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 22px;
 }
@@ -215,13 +209,14 @@ picture {
     width: 100px;
     left: 210px;
 
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 22px;
 }
 #title-clarodesc {
     position: absolute;
     top: 150px;
+    left: 15px;
     margin-left: 200px;
     width: 130px;
 
@@ -232,6 +227,7 @@ picture {
 #description-clarodesc {
     position: absolute;
     top: 175px;
+    left: 15px;
     margin-left: 200px;
     width: 130px;
     
@@ -240,3 +236,4 @@ picture {
     font-size: 13px;
     line-height: 15px;
 }
+
